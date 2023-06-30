@@ -1,0 +1,221 @@
+@media (min-width: 1200px) {
+    .section-header .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .section1 .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .section2 .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .footer .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-dropdown {
+        padding-left: 65px;
+    }
+    .navbar-dropdown li {
+        padding: 0 10px;
+    }
+    .navbar-dropdown .btn-section {
+        padding: 3px 40px;
+    }
+    .section1 h2 {
+        text-shadow: 0px 0px 2px white;
+    }
+    .section1 p {
+        text-shadow: 0px 0px 2px white;
+    }
+    .section2 .container {
+        max-width: 960px;
+    }
+    .footer-img2 {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .menu .navbar {
+        display: none;
+    }
+    .navbar-mobi {
+        display: flex;
+    }
+    .icon-bars {
+        display: block;
+    }
+    .section1 {
+        background-image: none;
+        padding: 200px 0 100px;
+    }
+    .section1 p {
+        padding-top: 30px;
+    }
+    .search-icon {
+        padding-top: 16px;
+    }
+    .menu-right .instagram li {
+        padding-left: 0px;
+    }
+    .footer-img1 {
+        display: none;
+    }
+    .footer-img2 {
+        display: block;
+    }
+    .footer-bottom .ft-1 {
+        margin-bottom: 30px;
+    }
+    .footer-bottom .ft-2 {
+        padding-left: 120px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .header .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .menu {
+        padding: 20px 0 0 0;
+    }
+    .navbar-mobi-right {
+        margin-top: 70px;
+    }
+    .icon-bars {
+        display: block;
+    }
+    .menu .navbar {
+        display: none;
+    }
+    .navbar-mobi {
+        display: flex;
+    }
+    .section1 {
+        background-image: none;
+        padding: 200px 0 100px;
+    }
+    .section1 h2 {
+        font-size: 25px;
+    }
+    .section1 p {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blog-list .blog-link {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .row .blog-left {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    .footer-img1 {
+        display: none;
+    }
+    .footer-img2 {
+        display: block;
+    }
+    .footer-bottom .ft-1 {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .icon-bars {
+        display: block;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .navbar-mobi {
+        display: flex;
+    }
+    .menu {
+        padding: 20px 0 0 0;
+    }
+    .navbar-mobi-right {
+        margin-top: 70px;
+    }
+    .icon-bars {
+        display: block;
+    }
+    .menu .navbar {
+        display: none;
+    }
+    .navbar-mobi {
+        display: flex;
+    }
+    .mobi-input:checked~.navbar-mobi-right .dd-mobi {
+        height: 357px;
+    }
+    .section1 {
+        background-image: none;
+        padding: 200px 0 100px;
+    }
+    .section1 h2 {
+        font-size: 25px;
+    }
+    .section1 p {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blog-list .blog-link {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .row .blog-left {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    .menu-right .instagram {
+        padding: 35px 10px 0;
+    }
+    .email h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer-img1 {
+        display: none;
+    }
+    .footer-img2 {
+        display: block;
+    }
+    .footer-headline h4 {
+        font-size: 20px;
+    }
+    .footer-bottom .ft-1 {
+        margin-bottom: 30px;
+    }
+    .footer-bottom .ft-2 {
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    .footer-bottom .ft-3 {
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    .footer-bottom .ft-4 {
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 50%;
+    }
+    .footer-bottom .ft-5 {
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 50%;
+    }
+}
